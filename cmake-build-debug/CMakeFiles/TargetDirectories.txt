@@ -1,3 +1,0 @@
-C:/Users/Luiz Flávio/OneDrive/Área de Trabalho/Viveiro_Mudas/cmake-build-debug/CMakeFiles/Viveiro_Mudas.dir
-C:/Users/Luiz Flávio/OneDrive/Área de Trabalho/Viveiro_Mudas/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Luiz Flávio/OneDrive/Área de Trabalho/Viveiro_Mudas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
