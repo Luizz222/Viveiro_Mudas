@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
-#include"resource/Structs.h"
-#include"resource/Bst.h"
+#include"../ libraries/Structs.h"
+#include"../ libraries/Bst.h"
 
 
 int main() {

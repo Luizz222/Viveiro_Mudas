@@ -3,6 +3,7 @@ project(Viveiro_Mudas C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Viveiro_Mudas main.c
-        resource/Structs.h
-        resource/Bst.h)
+add_executable(Viveiro_Mudas resource/main.c
+        " libraries/Structs.h"
+        " libraries/Bst.h"
+        resource/Bst.c)

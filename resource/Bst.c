@@ -4,7 +4,8 @@
  * Por exemplo, ao registrar lotes de mudas produzidos diariamente, o numero do lote e incrementado de forma automatica e crescente (1001, 1002, 1003...).
  */
 #include<stdlib.h>
-#include"Structs.h"
+#include <stdio.h>
+#include"../ libraries/Structs.h"
 #ifndef BST_H
 #define BST_H
 
