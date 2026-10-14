@@ -6,10 +6,13 @@
 #include<stdlib.h>
 #include <stdio.h>
 #include"../ libraries/Structs.h"
-#ifndef BST_H
-#define BST_H
+#include"../ libraries/Bst.h"
 
-/* Função recursiva de altura conforme regra da missão: NULL = 0, folha = 1 */
+/* =================================================================
+  Função para recalcular a altura de um nó: NULL = 0, folha = 1
+  Parâmetros:
+  1 - raiz - ponteiro para de um nó da arvore
+ ===================================================================*/
 int altura(No *raiz) {
     int altEsq;
     int altDir;
@@ -28,7 +31,11 @@ int altura(No *raiz) {
     }
 }
 
-/* Criação do nó usando os ponteiros esq e dir do seu struct */
+/* =================================================================
+  Função para criação do nó
+  Parâmetros:
+  1 - muda - valor que será inserido no nó
+ ===================================================================*/
 No* criarNo(Mudas muda) {
     No *novo = (No*) malloc(sizeof(No));
     if (novo == NULL) {
@@ -45,7 +52,12 @@ No* criarNo(Mudas muda) {
     return novo;
 }
 
-/* Inserção simples sem rotação e sem balanceamento */
+/* =================================================================
+  Função para inserção simples sem rotação e sem balanceamento
+  Parâmetros:
+  1 - raiz - ponteiro indicando a raiz da árvore
+  2 - muda - valor que será inserido no nó
+ ===================================================================*/
 No* inserir(No *raiz, Mudas muda) {
     if (raiz == NULL) {
         return criarNo(muda);
@@ -60,7 +72,11 @@ No* inserir(No *raiz, Mudas muda) {
     return raiz;
 }
 
-/* Percurso emOrdem para imprimir os registros da árvore */
+/* =================================================================
+  Função para percurso em ordem para imprimir os registros da árvore
+  Parâmetros:
+  1 - raiz - ponteiro indicando a raiz da árvore
+ ===================================================================*/
 void emOrdem(No *raiz) {
     if (raiz == NULL) {
         return;
@@ -75,7 +91,11 @@ void emOrdem(No *raiz) {
            raiz->muda.status);
     emOrdem(raiz->dir);
 }
-
+/* =================================================================
+  Função para liberar o espaço acupado pela árvore
+  Parâmetros:
+  1 - raiz - ponteiro indicando a raiz da árvore
+ ===================================================================*/
 void liberarArvore(No *raiz) {
     if (raiz == NULL) {
         return;
@@ -84,4 +104,4 @@ void liberarArvore(No *raiz) {
     liberarArvore(raiz->dir);
     free(raiz);
 }
-#endif //BST_H
+
