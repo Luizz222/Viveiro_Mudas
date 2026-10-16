@@ -82,4 +82,12 @@ No* inserir(No *raiz, Muda muda);
  ===================================================================*/
 void inOrder(No *raiz);
 
+
+/* =================================================================
+  Função que retorna o menor nó da árvore
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+No* menorNo(No *raiz);
+
 #endif //AVL_H

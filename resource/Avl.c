@@ -218,6 +218,20 @@ void inOrder(No *raiz) {
     inOrder(raiz->dir);
 }
 
+/* =================================================================
+  Função que retorna o menor nó da árvore
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+No* menorNo(No *raiz) {
+    if (raiz == NULL) {
+        return NULL;
+    }
+    while (raiz->esq!=NULL) {
+        raiz=raiz->esq;
+    }
+    return raiz;
+}
 
 
 
