@@ -13,13 +13,13 @@
   Parâmetros:
   1 - raiz - ponteiro para de um nó da arvore
  ===================================================================*/
-int altura(No *raiz);
+int alturaBst(No *raiz);
 /* =================================================================
   Função para criação do nó
   Parâmetros:
   1 - muda - valor que será inserido no nó
  ===================================================================*/
-No* criarNo(Mudas muda);
+No* criarNoBst(Muda muda);
 
 /* =================================================================
   Função para inserção simples sem rotação e sem balanceamento
@@ -27,7 +27,7 @@ No* criarNo(Mudas muda);
   1 - raiz - ponteiro indicando a raiz da árvore
   2 - muda - valor que será inserido no nó
  ===================================================================*/
-No* inserir(No *raiz, Mudas muda);
+No* inserirBst(No *raiz, Muda muda);
 
 /* =================================================================
   Função para percurso em ordem para imprimir os registros da árvore

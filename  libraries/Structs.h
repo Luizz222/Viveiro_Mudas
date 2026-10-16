@@ -8,12 +8,11 @@ typedef struct {
     int quantidade_mudas;
     char data_germinacao[11];
     char status[20];
-}Mudas ;
+}Muda ;
 
 
 typedef struct No {
-      int numero_lote;
-      Mudas muda;
+      Muda muda;
       int altura;
       struct No *esq;
       struct No *dir;
