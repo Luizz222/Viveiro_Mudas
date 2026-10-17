@@ -233,6 +233,34 @@ No* menorNo(No *raiz) {
     return raiz;
 }
 
+/* =================================================================
+  Função para remover um nó da árvore
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+  2- chave - valor para identificar o nó
+ ===================================================================*/
+No* remover(No *raiz, int chave) {
+    if (raiz==NULL) {
+        return NULL;
+    }
+    if (raiz->esq==NULL && raiz->dir==NULL) {
+        free(raiz);
+        return NULL;
+    }
+    if (raiz->esq != NULL && raiz->dir==NULL) {
+        return raiz->esq;
+        free(raiz);
+    }
+    if (raiz->esq==NULL && raiz->dir!=NULL) {
+        return raiz->dir;
+        free(raiz);
+    }
+    if (raiz->esq!=NULL && raiz->dir!=NULL) {
+        
+    }
+}
+
+
 
 
 
