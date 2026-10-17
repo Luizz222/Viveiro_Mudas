@@ -24,7 +24,6 @@ No* criarNo(Muda muda) {
 }
 
 
-
 /* =================================================================
   Função para recalcular a altura de um nó
   Parâmetros:
@@ -100,6 +99,7 @@ No* rotacaoEsquerda(No *x) {
     return y;   /* y é a nova raiz desta subárvore */
 }
 
+
 /* =================================================================
   Função para fazer a rotação a esquerda e depois a direita (rotação dupla)
   Parâmetros:
@@ -120,9 +120,6 @@ No* rotacaoRL(No *z) {
     z->dir = rotacaoDireita(z->dir);    /* passo 1: gira o filho direito  */
     return rotacaoEsquerda(z);           /* passo 2: gira a raiz           */
 }
-
-
-
 
 
 /* =================================================================
@@ -154,7 +151,6 @@ No* balancear(No *raiz) {
     return raiz;
 
 }
-
 
 
 /* =================================================================
@@ -233,37 +229,72 @@ No* menorNo(No *raiz) {
     return raiz;
 }
 
+
 /* =================================================================
-  Função para remover um nó da árvore
+  Função para remover um nó da árvore AVL
   Parâmetros:
   1 - raiz - ponteiro que representa a raiz da arvore
-  2- chave - valor para identificar o nó
+  2 - chave - valor (numero_lote) para identificar o nó
  ===================================================================*/
 No* remover(No *raiz, int chave) {
-    if (raiz==NULL) {
+    if (raiz == NULL) {
         return NULL;
     }
-    if (raiz->esq==NULL && raiz->dir==NULL) {
-        free(raiz);
+
+    if (chave < raiz->muda.numero_lote) {
+        raiz->esq = remover(raiz->esq, chave);
+    } 
+    else if (chave > raiz->muda.numero_lote) {
+        raiz->dir = remover(raiz->dir, chave);
+    } 
+    else {
+        if (raiz->esq == NULL || raiz->dir == NULL) {
+            No *temp = raiz->esq ? raiz->esq : raiz->dir;
+
+            if (temp == NULL) {
+                temp = raiz;
+                raiz = NULL;
+                free(temp);
+            } 
+            else {  // Apenas um filho
+                *raiz = *temp; 
+                free(temp);
+            }
+        } 
+        else { // No com 2 filhos
+            No *sucessor = menorNo(raiz->dir);
+
+            raiz->muda = sucessor->muda; 
+            
+            raiz->dir = remover(raiz->dir, sucessor->muda.numero_lote);
+        }
+    }
+    if (raiz == NULL) {
         return NULL;
     }
-    if (raiz->esq != NULL && raiz->dir==NULL) {
-        return raiz->esq;
-        free(raiz);
-    }
-    if (raiz->esq==NULL && raiz->dir!=NULL) {
-        return raiz->dir;
-        free(raiz);
-    }
-    if (raiz->esq!=NULL && raiz->dir!=NULL) {
-        
-    }
+
+    return balancear(raiz);
 }
 
 
+/* =================================================================
+  Função auxiliar para validar se a árvore continua sendo uma AVL válida
+  Retorna 1 se for AVL válida, ou 0 caso contrário.
+ ===================================================================*/
+int ehAVL(No *raiz) {
+    if (raiz == NULL) {
+        return 1;
+    }
 
+    int alturaReal = 1 + (altura(raiz->esq) > altura(raiz->dir) ? altura(raiz->esq) : altura(raiz->dir));
+    if (raiz->altura != alturaReal) {
+        return 0;
+    }
 
+    int fator = fb(raiz);
+    if (fator < -1 || fator > 1) {
+        return 0;
+    }
 
-
-
-
+    return ehAVL(raiz->esq) && ehAVL(raiz->dir);
+}
