@@ -82,4 +82,23 @@ No* inserir(No *raiz, Muda muda);
  ===================================================================*/
 void inOrder(No *raiz);
 
+/* =================================================================
+  Função para zerar os contadores globais
+ ===================================================================*/
+ void zerarContadores();
+
+ /* =================================================================
+  Função para imprimir a soma dos contadores
+ ===================================================================*/
+ void imprimirContadores();
+
+ /* =================================================================
+  Função para zerar os contadores globais
+  Parâmetros:
+  1 - raiz - ponteiro para a raiz
+  2 - a - valor de inferior
+  3 - b - valor de superior
+ ===================================================================*/
+ void listarFaixa(No *raiz, int a, int b);
+
 #endif //AVL_H
