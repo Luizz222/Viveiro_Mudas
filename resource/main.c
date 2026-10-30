@@ -8,6 +8,17 @@
 // Declarando as variáveis globais que estão no Avl.c
 extern int contLL, contRR, contLR, contRL, visitados;
 
+// Função auxiliar para criar uma muda padrão rapidamente
+Muda criarMudaTeste(int lote) {
+    Muda m;
+    m.numero_lote = lote;
+    strcpy(m.especie, "Ipe Amarelo");
+    m.quantidade_mudas = 100;
+    strcpy(m.data_germinacao, "01/10/2026");
+    strcpy(m.status, "Em crescimento");
+    return m;
+}
+
 // Função auxiliar para contar a quantidade total de nós na árvore
 int contarNos(No *raiz) {
     if (raiz == NULL) return 0;
@@ -34,30 +45,11 @@ int main() {
     int i;
     No *raizAvl = NULL;
 
-
-    // Função auxiliar para criar uma muda padrão rapidamente
-    Muda criarMudaTeste(int lote) {
-
-    //BST
-    //Carregamento de 15 registros com chave em ordem crescente (1001 a 1015)
-    for (i = 1; i <= 15; i++) {
-
-        Muda m;
-        m.numero_lote = lote;
-        strcpy(m.especie, "Ipe Amarelo");
-        m.quantidade_mudas = 100;
-        strcpy(m.data_germinacao, "01/10/2026");
-        strcpy(m.status, "Em crescimento");
-        return m;
-    }
-
     // 1. CARGA ASCENDENTE (1001 a 1015)
     zerarContadores();
     for (i = 1; i <= 15; i++) {
         raizAvl = inserir(raizAvl, criarMudaTeste(1000 + i));
     }
-
-
 
     printf("Carga ascendente 1001 ate 1015 -> ");
     imprimirContadores();
@@ -78,7 +70,7 @@ int main() {
     listarFaixa(raizAvl, 1100, 1200);
     printf("nenhum registro (%d nos visitados de 15)\n", visitados);
 
- 
+
     // Carga Descendente
     liberarArvore(raizAvl); // Limpa a árvore anterior
     raizAvl = NULL;
@@ -87,7 +79,6 @@ int main() {
     for (i = 15; i >= 1; i--) {
         raizAvl = inserir(raizAvl, criarMudaTeste(1000 + i));
     }
-
 
     printf("Carga descendente 1015 ate 1001 -> ");
     imprimirContadores();
@@ -112,12 +103,6 @@ int main() {
     raizAvl = NULL;
     zerarContadores();
 
-    // Impressão dos registros em ordem
-    printf("--- Lista BST emOrdem ---\n");
-    emOrdem(raizBst);
-    printf("\n");
-
-
     raizAvl = inserir(raizAvl, criarMudaTeste(1001));
     raizAvl = inserir(raizAvl, criarMudaTeste(1003));
     raizAvl = inserir(raizAvl, criarMudaTeste(1002));
@@ -126,16 +111,22 @@ int main() {
     imprimirContadores();
     printf("raiz: %d\n", raizAvl->muda.numero_lote);
 
-
-    // Limpeza final
+    // Limpa a árvore antes da Missão 3
     liberarArvore(raizAvl);
+    raizAvl = NULL;
 
-    liberarArvore(raizBst);    
 
-    
     // ====================================================== MISSÃO 3 =================================================
     // -- Impressão conforme a MISSÃO 3 pede --
-    printf ("\n================================================= TESTE DA MISSAO 3 =================================================\n");
+    printf("\n================================================= TESTE DA MISSAO 3 =================================================\n");
+
+    // Recarrega os 15 registros (1001 a 1015) para os testes de remoção
+    zerarContadores();
+    for (i = 1; i <= 15; i++) {
+        raizAvl = inserir(raizAvl, criarMudaTeste(1000 + i));
+    }
+    imprimirStatus(raizAvl, NULL);
+
     // Removeu 1001 (folha - Caso 1)
     raizAvl = remover(raizAvl, 1001);
     imprimirStatus(raizAvl, "Removeu 1001 (folha)");
@@ -166,11 +157,13 @@ int main() {
 
     // Impressão final emOrdem dos nós restantes
     printf("\nemOrdem: ");
-    inOrder(raizAvl);
-    printf("==============================================================================================================\n");
+    emOrdem(raizAvl);
+    printf("\n==============================================================================================================\n");
 
     // ================================================================================================================
-    
+
+    // Limpeza final
+    liberarArvore(raizAvl);
 
     return 0;
 }

@@ -265,90 +265,91 @@ void listarFaixa(No *raiz, int a, int b) {
     // só desce se houver elementos menores que superior
     if (raiz->muda.numero_lote < b) {
         listarFaixa(raiz->dir, a, b);
-    }    
-
-/* =================================================================
-  Função que retorna o menor nó da árvore
-  Parâmetros:
-  1 - raiz - ponteiro que representa a raiz da arvore
- ===================================================================*/
-No* menorNo(No *raiz) {
-    if (raiz == NULL) {
-        return NULL;
     }
-    while (raiz->esq!=NULL) {
-        raiz=raiz->esq;
-    }
-    return raiz;
 }
 
-
-/* =================================================================
-  Função para remover um nó da árvore AVL
-  Parâmetros:
-  1 - raiz - ponteiro que representa a raiz da arvore
-  2 - chave - valor (numero_lote) para identificar o nó
- ===================================================================*/
-No* remover(No *raiz, int chave) {
-    if (raiz == NULL) {
-        return NULL;
-    }
-
-    if (chave < raiz->muda.numero_lote) {
-        raiz->esq = remover(raiz->esq, chave);
-    } 
-    else if (chave > raiz->muda.numero_lote) {
-        raiz->dir = remover(raiz->dir, chave);
-    } 
-    else {
-        if (raiz->esq == NULL || raiz->dir == NULL) {
-            No *temp = raiz->esq ? raiz->esq : raiz->dir;
-
-            if (temp == NULL) {
-                temp = raiz;
-                raiz = NULL;
-                free(temp);
-            } 
-            else {  // Apenas um filho
-                *raiz = *temp; 
-                free(temp);
-            }
-        } 
-        else { // No com 2 filhos
-            No *sucessor = menorNo(raiz->dir);
-
-            raiz->muda = sucessor->muda; 
-            
-            raiz->dir = remover(raiz->dir, sucessor->muda.numero_lote);
+    /* =================================================================
+      Função que retorna o menor nó da árvore
+      Parâmetros:
+      1 - raiz - ponteiro que representa a raiz da arvore
+     ===================================================================*/
+    No* menorNo(No *raiz) {
+        if (raiz == NULL) {
+            return NULL;
         }
-    }
-    if (raiz == NULL) {
-        return NULL;
-    }
-
-    return balancear(raiz);
-}
-
-
-/* =================================================================
-  Função auxiliar para validar se a árvore continua sendo uma AVL válida
-  Retorna 1 se for AVL válida, ou 0 caso contrário.
- ===================================================================*/
-int ehAVL(No *raiz) {
-    if (raiz == NULL) {
-        return 1;
+        while (raiz->esq!=NULL) {
+            raiz=raiz->esq;
+        }
+        return raiz;
     }
 
-    int alturaReal = 1 + (altura(raiz->esq) > altura(raiz->dir) ? altura(raiz->esq) : altura(raiz->dir));
-    if (raiz->altura != alturaReal) {
-        return 0;
+
+    /* =================================================================
+      Função para remover um nó da árvore AVL
+      Parâmetros:
+      1 - raiz - ponteiro que representa a raiz da arvore
+      2 - chave - valor (numero_lote) para identificar o nó
+     ===================================================================*/
+    No* remover(No *raiz, int chave){
+        if (raiz == NULL) {
+            return NULL;
+        }
+
+        if (chave < raiz->muda.numero_lote) {
+            raiz->esq = remover(raiz->esq, chave);
+        }
+        else if (chave > raiz->muda.numero_lote) {
+            raiz->dir = remover(raiz->dir, chave);
+        }
+        else {
+            if (raiz->esq == NULL || raiz->dir == NULL) {
+                No *temp = raiz->esq ? raiz->esq : raiz->dir;
+
+                if (temp == NULL) {
+                    temp = raiz;
+                    raiz = NULL;
+                    free(temp);
+                }
+                else {  // Apenas um filho
+                    *raiz = *temp;
+                    free(temp);
+                }
+            }
+            else { // No com 2 filhos
+                No *sucessor = menorNo(raiz->dir);
+
+                raiz->muda = sucessor->muda;
+
+                raiz->dir = remover(raiz->dir, sucessor->muda.numero_lote);
+            }
+        }
+        if (raiz == NULL) {
+            return NULL;
+        }
+
+        return balancear(raiz);
     }
 
-    int fator = fb(raiz);
-    if (fator < -1 || fator > 1) {
-        return 0;
+
+    /* =================================================================
+      Função auxiliar para validar se a árvore continua sendo uma AVL válida
+      Retorna 1 se for AVL válida, ou 0 caso contrário.
+     ===================================================================*/
+    int ehAVL(No *raiz) {
+        if (raiz == NULL) {
+            return 1;
+        }
+
+        int alturaReal = 1 + (altura(raiz->esq) > altura(raiz->dir) ? altura(raiz->esq) : altura(raiz->dir));
+        if (raiz->altura != alturaReal) {
+            return 0;
+        }
+
+        int fator = fb(raiz);
+        if (fator < -1 || fator > 1) {
+            return 0;
+        }
+
+        return ehAVL(raiz->esq) && ehAVL(raiz->dir);
+
     }
-
-    return ehAVL(raiz->esq) && ehAVL(raiz->dir);
-
-}

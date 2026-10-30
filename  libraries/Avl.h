@@ -100,7 +100,7 @@ void inOrder(No *raiz);
   3 - b - valor de superior
  ===================================================================*/
  void listarFaixa(No *raiz, int a, int b);
-
+/*====================================================================
   Função que retorna o menor nó da árvore
   Parâmetros:
   1 - raiz - ponteiro que representa a raiz da arvore
