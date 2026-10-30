@@ -2,6 +2,35 @@
 #include<stdio.h>
 #include"../ libraries/Structs.h"
 #include "../ libraries/Avl.h"
+// Variáveis Globais
+int contLL = 0;
+int contRR = 0;
+int contLR = 0;
+int contRL = 0;
+int visitados = 0;
+
+
+
+/* =================================================================
+  Função para zerar os contadores globais
+ ===================================================================*/
+void zerarContadores() {
+    contLL = 0;
+    contRR = 0;
+    contLR = 0;
+    contRL = 0;
+    visitados = 0;
+}
+
+/* =================================================================
+  Função para imprimir a soma dos contadores
+ ===================================================================*/
+void imprimirContadores() {
+    int totalRotacoes = contLL + contRR + contLR + contRL;
+    printf("LL: %d  RR: %d  LR: %d  RL: %d\n", contLL, contRR, contLR, contRL);
+    printf("total: %d\n", totalRotacoes);
+}
+
 
 
 /* =================================================================
@@ -63,6 +92,7 @@ void atualizaAltura(No *n) {
   1 - y - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoDireita(No *y) {
+    contLL++; // Incrementa LL
     No *x  = y->esq;   /* x é o filho esquerdo — vai subir        */
     No *T2 = x->dir;   /* T2 é o filho direito de x — muda de pai */
 
@@ -84,7 +114,7 @@ No* rotacaoDireita(No *y) {
   1 - y - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoEsquerda(No *x) {
-
+    contRR++; // Incrementa RR
     No *y  = x->dir;   /* y é o filho direito — vai subir         */
     No *T2 = y->esq;   /* T2 é o filho esquerdo de y — muda de pai */
 
@@ -106,6 +136,7 @@ No* rotacaoEsquerda(No *x) {
   1 - z - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoLR(No *z) {
+    contLR++; // Incrementa LR
     z->esq = rotacaoEsquerda(z->esq);   /* passo 1: gira o filho esquerdo */
     return rotacaoDireita(z);            /* passo 2: gira a raiz           */
 }
@@ -117,6 +148,7 @@ No* rotacaoLR(No *z) {
   1 - z - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoRL(No *z) {
+    contRL++; // Incrementa RL
     z->dir = rotacaoDireita(z->dir);    /* passo 1: gira o filho direito  */
     return rotacaoEsquerda(z);           /* passo 2: gira a raiz           */
 }
@@ -135,21 +167,19 @@ No* balancear(No *raiz) {
     int Fb = fb(raiz);
     int Fbe = fb(raiz->esq);
     int Fbd = fb(raiz->dir);
-    if (Fb ==2 && Fbe >=0) {
+    if (Fb == 2 && Fbe >= 0) {
         raiz = rotacaoDireita(raiz);
     }
-    else if (Fb ==-2 && Fbd <=0) {
+    else if (Fb == -2 && Fbd <= 0) {
         raiz = rotacaoEsquerda(raiz);
     }
-    else if (Fb == 2 && Fbe <0) {
+    else if (Fb == 2 && Fbe < 0) {
         raiz = rotacaoLR(raiz);
     }
-    else if (Fb == -2 && Fbd >0) {
+    else if (Fb == -2 && Fbd > 0) {
         raiz = rotacaoRL(raiz);
     }
-
     return raiz;
-
 }
 
 
@@ -160,8 +190,6 @@ No* balancear(No *raiz) {
   2 - muda - valor a ser inserido no nó
  ===================================================================*/
 No* inserir(No *raiz, Muda muda) {
-
-    /* --- Passo 1: inserção normal de BST --- */
     if (raiz == NULL)
         return criarNo(muda);
 
@@ -170,31 +198,25 @@ No* inserir(No *raiz, Muda muda) {
     else if (muda.numero_lote > raiz->muda.numero_lote)
         raiz->dir = inserir(raiz->dir, muda);
     else
-        return raiz;   /* duplicata — ignora */
+        return raiz;  
 
-    /* --- Passo 2: atualiza altura deste nó --- */
     atualizaAltura(raiz);
 
-    /* --- Passo 3: verifica FB e rotaciona se necessário --- */
     int f = fb(raiz);
 
-    /* LL: pesado à esquerda, inserção no filho esquerdo do filho esquerdo */
     if (f > 1 && muda.numero_lote < raiz->esq->muda.numero_lote)
         return rotacaoDireita(raiz);
 
-    /* RR: pesado à direita, inserção no filho direito do filho direito */
     if (f < -1 && muda.numero_lote > raiz->dir->muda.numero_lote)
         return rotacaoEsquerda(raiz);
 
-    /* LR: pesado à esquerda, inserção no filho direito do filho esquerdo */
     if (f > 1 && muda.numero_lote > raiz->esq->muda.numero_lote)
         return rotacaoLR(raiz);
 
-    /* RL: pesado à direita, inserção no filho esquerdo do filho direito */
     if (f < -1 && muda.numero_lote < raiz->dir->muda.numero_lote)
         return rotacaoRL(raiz);
 
-    return raiz;   /* sem rotação necessária */
+    return raiz;   
 }
 
 /* =================================================================
@@ -213,6 +235,37 @@ void inOrder(No *raiz) {
           raiz->muda.status);
     inOrder(raiz->dir);
 }
+
+
+ /* =================================================================
+  Função para zerar os contadores globais
+  Parâmetros:
+  1 - raiz - ponteiro para a raiz
+  2 - a - valor de inferior
+  3 - b - valor de superior
+ ===================================================================*/
+void listarFaixa(No *raiz, int a, int b) {
+    // Faixa inválida
+    if (a > b) {
+        printf("faixa invalida\n");
+        return;
+    }
+    // nó nulo -> volta
+    if (raiz == NULL) return;
+    // conta os nós visitados
+    visitados++;
+    // só desce se houver elementos maiores que inferior
+    if (raiz->muda.numero_lote > a) {
+        listarFaixa(raiz->esq, a, b);
+    }
+    // imprime se estiver dentro da faixa
+    if (raiz->muda.numero_lote >= a && raiz->muda.numero_lote <= b) {
+        printf("%d ", raiz->muda.numero_lote);
+    }
+    // só desce se houver elementos menores que superior
+    if (raiz->muda.numero_lote < b) {
+        listarFaixa(raiz->dir, a, b);
+    }    
 
 /* =================================================================
   Função que retorna o menor nó da árvore
@@ -297,4 +350,5 @@ int ehAVL(No *raiz) {
     }
 
     return ehAVL(raiz->esq) && ehAVL(raiz->dir);
+
 }
