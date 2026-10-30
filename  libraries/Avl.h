@@ -38,13 +38,13 @@ void atualizaAltura(No *n);
  ===================================================================*/
 No* rotacaoDireita(No *y);
 
-
 /* =================================================================
   Função para fazer a rotação a esquerda
   Parâmetros:
   1 - y - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoEsquerda(No *x);
+
 /* =================================================================
   Função para fazer a rotação a esquerda e depois a direita (rotação dupla)
   Parâmetros:
@@ -58,7 +58,6 @@ No* rotacaoLR(No *z);
   1 - z - ponteiro que representa a raiz da arvore
  ===================================================================*/
 No* rotacaoRL(No *z);
-
 
 /* =================================================================
   Função para balancear a arvore
@@ -83,6 +82,7 @@ No* inserir(No *raiz, Muda muda);
 void inOrder(No *raiz);
 
 /* =================================================================
+
   Função para zerar os contadores globais
  ===================================================================*/
  void zerarContadores();
@@ -100,5 +100,26 @@ void inOrder(No *raiz);
   3 - b - valor de superior
  ===================================================================*/
  void listarFaixa(No *raiz, int a, int b);
+
+  Função que retorna o menor nó da árvore
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+No* menorNo(No *raiz);
+
+/* =================================================================
+  Função que retorna o menor nó da árvore
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+  2 - chave: que representa o código da muda
+ ===================================================================*/
+No* remover(No *raiz, int chave);
+
+/* =================================================================
+  Função que verifica se a Avl está balanceada
+  Parâmetros:
+  1 - raiz - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+int ehAVL(No *raiz);
 
 #endif //AVL_H
