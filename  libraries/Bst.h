@@ -45,4 +45,6 @@ void emOrdem(No *raiz);
  ===================================================================*/
 void liberarArvore(No *raiz);
 
+
+
 #endif //BST_H

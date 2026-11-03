@@ -1,0 +1,1000 @@
+1001;Ipe amarelo;10;01/01/2023;Germinando
+1002;Ipe roxo;47;08/06/2023;Em crescimento
+1003;Jatoba;84;15/11/2023;Pronta para plantio
+1004;Aroeira pimenteira;121;22/04/2023;Transplantada
+1005;Pau-brasil;158;01/09/2023;Vendida
+1006;Jequitiba rosa;195;08/02/2023;Descartada
+1007;Cedro rosa;232;15/07/2023;Em quarentena
+1008;Angico vermelho;269;22/12/2024;Germinando
+1009;Pitangueira;306;01/05/2024;Em crescimento
+1010;Jabuticabeira;343;08/10/2024;Pronta para plantio
+1011;Quaresmeira;380;15/03/2024;Transplantada
+1012;Sibipiruna;417;22/08/2024;Vendida
+1013;Araucaria;454;01/01/2024;Descartada
+1014;Peroba rosa;491;08/06/2024;Em quarentena
+1015;Embauba;37;15/11/2025;Germinando
+1016;Guapuruvu;74;22/04/2025;Em crescimento
+1017;Copaiba;111;01/09/2025;Pronta para plantio
+1018;Ipe amarelo;148;08/02/2025;Transplantada
+1019;Ipe roxo;185;15/07/2025;Vendida
+1020;Jatoba;222;22/12/2025;Descartada
+1021;Aroeira pimenteira;259;01/05/2025;Em quarentena
+1022;Pau-brasil;296;08/10/2026;Germinando
+1023;Jequitiba rosa;333;15/03/2026;Em crescimento
+1024;Cedro rosa;370;22/08/2026;Pronta para plantio
+1025;Angico vermelho;407;01/01/2026;Transplantada
+1026;Pitangueira;444;08/06/2026;Vendida
+1027;Jabuticabeira;481;15/11/2026;Descartada
+1028;Quaresmeira;27;22/04/2026;Em quarentena
+1029;Sibipiruna;64;01/09/2023;Germinando
+1030;Araucaria;101;08/02/2023;Em crescimento
+1031;Peroba rosa;138;15/07/2023;Pronta para plantio
+1032;Embauba;175;22/12/2023;Transplantada
+1033;Guapuruvu;212;01/05/2023;Vendida
+1034;Copaiba;249;08/10/2023;Descartada
+1035;Ipe amarelo;286;15/03/2023;Em quarentena
+1036;Ipe roxo;323;22/08/2024;Germinando
+1037;Jatoba;360;01/01/2024;Em crescimento
+1038;Aroeira pimenteira;397;08/06/2024;Pronta para plantio
+1039;Pau-brasil;434;15/11/2024;Transplantada
+1040;Jequitiba rosa;471;22/04/2024;Vendida
+1041;Cedro rosa;17;01/09/2024;Descartada
+1042;Angico vermelho;54;08/02/2024;Em quarentena
+1043;Pitangueira;91;15/07/2025;Germinando
+1044;Jabuticabeira;128;22/12/2025;Em crescimento
+1045;Quaresmeira;165;01/05/2025;Pronta para plantio
+1046;Sibipiruna;202;08/10/2025;Transplantada
+1047;Araucaria;239;15/03/2025;Vendida
+1048;Peroba rosa;276;22/08/2025;Descartada
+1049;Embauba;313;01/01/2025;Em quarentena
+1050;Guapuruvu;350;08/06/2026;Germinando
+1051;Copaiba;387;15/11/2026;Em crescimento
+1052;Ipe amarelo;424;22/04/2026;Pronta para plantio
+1053;Ipe roxo;461;01/09/2026;Transplantada
+1054;Jatoba;498;08/02/2026;Vendida
+1055;Aroeira pimenteira;44;15/07/2026;Descartada
+1056;Pau-brasil;81;22/12/2026;Em quarentena
+1057;Jequitiba rosa;118;01/05/2023;Germinando
+1058;Cedro rosa;155;08/10/2023;Em crescimento
+1059;Angico vermelho;192;15/03/2023;Pronta para plantio
+1060;Pitangueira;229;22/08/2023;Transplantada
+1061;Jabuticabeira;266;01/01/2023;Vendida
+1062;Quaresmeira;303;08/06/2023;Descartada
+1063;Sibipiruna;340;15/11/2023;Em quarentena
+1064;Araucaria;377;22/04/2024;Germinando
+1065;Peroba rosa;414;01/09/2024;Em crescimento
+1066;Embauba;451;08/02/2024;Pronta para plantio
+1067;Guapuruvu;488;15/07/2024;Transplantada
+1068;Copaiba;34;22/12/2024;Vendida
+1069;Ipe amarelo;71;01/05/2024;Descartada
+1070;Ipe roxo;108;08/10/2024;Em quarentena
+1071;Jatoba;145;15/03/2025;Germinando
+1072;Aroeira pimenteira;182;22/08/2025;Em crescimento
+1073;Pau-brasil;219;01/01/2025;Pronta para plantio
+1074;Jequitiba rosa;256;08/06/2025;Transplantada
+1075;Cedro rosa;293;15/11/2025;Vendida
+1076;Angico vermelho;330;22/04/2025;Descartada
+1077;Pitangueira;367;01/09/2025;Em quarentena
+1078;Jabuticabeira;404;08/02/2026;Germinando
+1079;Quaresmeira;441;15/07/2026;Em crescimento
+1080;Sibipiruna;478;22/12/2026;Pronta para plantio
+1081;Araucaria;24;01/05/2026;Transplantada
+1082;Peroba rosa;61;08/10/2026;Vendida
+1083;Embauba;98;15/03/2026;Descartada
+1084;Guapuruvu;135;22/08/2026;Em quarentena
+1085;Copaiba;172;01/01/2023;Germinando
+1086;Ipe amarelo;209;08/06/2023;Em crescimento
+1087;Ipe roxo;246;15/11/2023;Pronta para plantio
+1088;Jatoba;283;22/04/2023;Transplantada
+1089;Aroeira pimenteira;320;01/09/2023;Vendida
+1090;Pau-brasil;357;08/02/2023;Descartada
+1091;Jequitiba rosa;394;15/07/2023;Em quarentena
+1092;Cedro rosa;431;22/12/2024;Germinando
+1093;Angico vermelho;468;01/05/2024;Em crescimento
+1094;Pitangueira;14;08/10/2024;Pronta para plantio
+1095;Jabuticabeira;51;15/03/2024;Transplantada
+1096;Quaresmeira;88;22/08/2024;Vendida
+1097;Sibipiruna;125;01/01/2024;Descartada
+1098;Araucaria;162;08/06/2024;Em quarentena
+1099;Peroba rosa;199;15/11/2025;Germinando
+1100;Embauba;236;22/04/2025;Em crescimento
+1101;Guapuruvu;273;01/09/2025;Pronta para plantio
+1102;Copaiba;310;08/02/2025;Transplantada
+1103;Ipe amarelo;347;15/07/2025;Vendida
+1104;Ipe roxo;384;22/12/2025;Descartada
+1105;Jatoba;421;01/05/2025;Em quarentena
+1106;Aroeira pimenteira;458;08/10/2026;Germinando
+1107;Pau-brasil;495;15/03/2026;Em crescimento
+1108;Jequitiba rosa;41;22/08/2026;Pronta para plantio
+1109;Cedro rosa;78;01/01/2026;Transplantada
+1110;Angico vermelho;115;08/06/2026;Vendida
+1111;Pitangueira;152;15/11/2026;Descartada
+1112;Jabuticabeira;189;22/04/2026;Em quarentena
+1113;Quaresmeira;226;01/09/2023;Germinando
+1114;Sibipiruna;263;08/02/2023;Em crescimento
+1115;Araucaria;300;15/07/2023;Pronta para plantio
+1116;Peroba rosa;337;22/12/2023;Transplantada
+1117;Embauba;374;01/05/2023;Vendida
+1118;Guapuruvu;411;08/10/2023;Descartada
+1119;Copaiba;448;15/03/2023;Em quarentena
+1120;Ipe amarelo;485;22/08/2024;Germinando
+1121;Ipe roxo;31;01/01/2024;Em crescimento
+1122;Jatoba;68;08/06/2024;Pronta para plantio
+1123;Aroeira pimenteira;105;15/11/2024;Transplantada
+1124;Pau-brasil;142;22/04/2024;Vendida
+1125;Jequitiba rosa;179;01/09/2024;Descartada
+1126;Cedro rosa;216;08/02/2024;Em quarentena
+1127;Angico vermelho;253;15/07/2025;Germinando
+1128;Pitangueira;290;22/12/2025;Em crescimento
+1129;Jabuticabeira;327;01/05/2025;Pronta para plantio
+1130;Quaresmeira;364;08/10/2025;Transplantada
+1131;Sibipiruna;401;15/03/2025;Vendida
+1132;Araucaria;438;22/08/2025;Descartada
+1133;Peroba rosa;475;01/01/2025;Em quarentena
+1134;Embauba;21;08/06/2026;Germinando
+1135;Guapuruvu;58;15/11/2026;Em crescimento
+1136;Copaiba;95;22/04/2026;Pronta para plantio
+1137;Ipe amarelo;132;01/09/2026;Transplantada
+1138;Ipe roxo;169;08/02/2026;Vendida
+1139;Jatoba;206;15/07/2026;Descartada
+1140;Aroeira pimenteira;243;22/12/2026;Em quarentena
+1141;Pau-brasil;280;01/05/2023;Germinando
+1142;Jequitiba rosa;317;08/10/2023;Em crescimento
+1143;Cedro rosa;354;15/03/2023;Pronta para plantio
+1144;Angico vermelho;391;22/08/2023;Transplantada
+1145;Pitangueira;428;01/01/2023;Vendida
+1146;Jabuticabeira;465;08/06/2023;Descartada
+1147;Quaresmeira;11;15/11/2023;Em quarentena
+1148;Sibipiruna;48;22/04/2024;Germinando
+1149;Araucaria;85;01/09/2024;Em crescimento
+1150;Peroba rosa;122;08/02/2024;Pronta para plantio
+1151;Embauba;159;15/07/2024;Transplantada
+1152;Guapuruvu;196;22/12/2024;Vendida
+1153;Copaiba;233;01/05/2024;Descartada
+1154;Ipe amarelo;270;08/10/2024;Em quarentena
+1155;Ipe roxo;307;15/03/2025;Germinando
+1156;Jatoba;344;22/08/2025;Em crescimento
+1157;Aroeira pimenteira;381;01/01/2025;Pronta para plantio
+1158;Pau-brasil;418;08/06/2025;Transplantada
+1159;Jequitiba rosa;455;15/11/2025;Vendida
+1160;Cedro rosa;492;22/04/2025;Descartada
+1161;Angico vermelho;38;01/09/2025;Em quarentena
+1162;Pitangueira;75;08/02/2026;Germinando
+1163;Jabuticabeira;112;15/07/2026;Em crescimento
+1164;Quaresmeira;149;22/12/2026;Pronta para plantio
+1165;Sibipiruna;186;01/05/2026;Transplantada
+1166;Araucaria;223;08/10/2026;Vendida
+1167;Peroba rosa;260;15/03/2026;Descartada
+1168;Embauba;297;22/08/2026;Em quarentena
+1169;Guapuruvu;334;01/01/2023;Germinando
+1170;Copaiba;371;08/06/2023;Em crescimento
+1171;Ipe amarelo;408;15/11/2023;Pronta para plantio
+1172;Ipe roxo;445;22/04/2023;Transplantada
+1173;Jatoba;482;01/09/2023;Vendida
+1174;Aroeira pimenteira;28;08/02/2023;Descartada
+1175;Pau-brasil;65;15/07/2023;Em quarentena
+1176;Jequitiba rosa;102;22/12/2024;Germinando
+1177;Cedro rosa;139;01/05/2024;Em crescimento
+1178;Angico vermelho;176;08/10/2024;Pronta para plantio
+1179;Pitangueira;213;15/03/2024;Transplantada
+1180;Jabuticabeira;250;22/08/2024;Vendida
+1181;Quaresmeira;287;01/01/2024;Descartada
+1182;Sibipiruna;324;08/06/2024;Em quarentena
+1183;Araucaria;361;15/11/2025;Germinando
+1184;Peroba rosa;398;22/04/2025;Em crescimento
+1185;Embauba;435;01/09/2025;Pronta para plantio
+1186;Guapuruvu;472;08/02/2025;Transplantada
+1187;Copaiba;18;15/07/2025;Vendida
+1188;Ipe amarelo;55;22/12/2025;Descartada
+1189;Ipe roxo;92;01/05/2025;Em quarentena
+1190;Jatoba;129;08/10/2026;Germinando
+1191;Aroeira pimenteira;166;15/03/2026;Em crescimento
+1192;Pau-brasil;203;22/08/2026;Pronta para plantio
+1193;Jequitiba rosa;240;01/01/2026;Transplantada
+1194;Cedro rosa;277;08/06/2026;Vendida
+1195;Angico vermelho;314;15/11/2026;Descartada
+1196;Pitangueira;351;22/04/2026;Em quarentena
+1197;Jabuticabeira;388;01/09/2023;Germinando
+1198;Quaresmeira;425;08/02/2023;Em crescimento
+1199;Sibipiruna;462;15/07/2023;Pronta para plantio
+1200;Araucaria;499;22/12/2023;Transplantada
+1201;Peroba rosa;45;01/05/2023;Vendida
+1202;Embauba;82;08/10/2023;Descartada
+1203;Guapuruvu;119;15/03/2023;Em quarentena
+1204;Copaiba;156;22/08/2024;Germinando
+1205;Ipe amarelo;193;01/01/2024;Em crescimento
+1206;Ipe roxo;230;08/06/2024;Pronta para plantio
+1207;Jatoba;267;15/11/2024;Transplantada
+1208;Aroeira pimenteira;304;22/04/2024;Vendida
+1209;Pau-brasil;341;01/09/2024;Descartada
+1210;Jequitiba rosa;378;08/02/2024;Em quarentena
+1211;Cedro rosa;415;15/07/2025;Germinando
+1212;Angico vermelho;452;22/12/2025;Em crescimento
+1213;Pitangueira;489;01/05/2025;Pronta para plantio
+1214;Jabuticabeira;35;08/10/2025;Transplantada
+1215;Quaresmeira;72;15/03/2025;Vendida
+1216;Sibipiruna;109;22/08/2025;Descartada
+1217;Araucaria;146;01/01/2025;Em quarentena
+1218;Peroba rosa;183;08/06/2026;Germinando
+1219;Embauba;220;15/11/2026;Em crescimento
+1220;Guapuruvu;257;22/04/2026;Pronta para plantio
+1221;Copaiba;294;01/09/2026;Transplantada
+1222;Ipe amarelo;331;08/02/2026;Vendida
+1223;Ipe roxo;368;15/07/2026;Descartada
+1224;Jatoba;405;22/12/2026;Em quarentena
+1225;Aroeira pimenteira;442;01/05/2023;Germinando
+1226;Pau-brasil;479;08/10/2023;Em crescimento
+1227;Jequitiba rosa;25;15/03/2023;Pronta para plantio
+1228;Cedro rosa;62;22/08/2023;Transplantada
+1229;Angico vermelho;99;01/01/2023;Vendida
+1230;Pitangueira;136;08/06/2023;Descartada
+1231;Jabuticabeira;173;15/11/2023;Em quarentena
+1232;Quaresmeira;210;22/04/2024;Germinando
+1233;Sibipiruna;247;01/09/2024;Em crescimento
+1234;Araucaria;284;08/02/2024;Pronta para plantio
+1235;Peroba rosa;321;15/07/2024;Transplantada
+1236;Embauba;358;22/12/2024;Vendida
+1237;Guapuruvu;395;01/05/2024;Descartada
+1238;Copaiba;432;08/10/2024;Em quarentena
+1239;Ipe amarelo;469;15/03/2025;Germinando
+1240;Ipe roxo;15;22/08/2025;Em crescimento
+1241;Jatoba;52;01/01/2025;Pronta para plantio
+1242;Aroeira pimenteira;89;08/06/2025;Transplantada
+1243;Pau-brasil;126;15/11/2025;Vendida
+1244;Jequitiba rosa;163;22/04/2025;Descartada
+1245;Cedro rosa;200;01/09/2025;Em quarentena
+1246;Angico vermelho;237;08/02/2026;Germinando
+1247;Pitangueira;274;15/07/2026;Em crescimento
+1248;Jabuticabeira;311;22/12/2026;Pronta para plantio
+1249;Quaresmeira;348;01/05/2026;Transplantada
+1250;Sibipiruna;385;08/10/2026;Vendida
+1251;Araucaria;422;15/03/2026;Descartada
+1252;Peroba rosa;459;22/08/2026;Em quarentena
+1253;Embauba;496;01/01/2023;Germinando
+1254;Guapuruvu;42;08/06/2023;Em crescimento
+1255;Copaiba;79;15/11/2023;Pronta para plantio
+1256;Ipe amarelo;116;22/04/2023;Transplantada
+1257;Ipe roxo;153;01/09/2023;Vendida
+1258;Jatoba;190;08/02/2023;Descartada
+1259;Aroeira pimenteira;227;15/07/2023;Em quarentena
+1260;Pau-brasil;264;22/12/2024;Germinando
+1261;Jequitiba rosa;301;01/05/2024;Em crescimento
+1262;Cedro rosa;338;08/10/2024;Pronta para plantio
+1263;Angico vermelho;375;15/03/2024;Transplantada
+1264;Pitangueira;412;22/08/2024;Vendida
+1265;Jabuticabeira;449;01/01/2024;Descartada
+1266;Quaresmeira;486;08/06/2024;Em quarentena
+1267;Sibipiruna;32;15/11/2025;Germinando
+1268;Araucaria;69;22/04/2025;Em crescimento
+1269;Peroba rosa;106;01/09/2025;Pronta para plantio
+1270;Embauba;143;08/02/2025;Transplantada
+1271;Guapuruvu;180;15/07/2025;Vendida
+1272;Copaiba;217;22/12/2025;Descartada
+1273;Ipe amarelo;254;01/05/2025;Em quarentena
+1274;Ipe roxo;291;08/10/2026;Germinando
+1275;Jatoba;328;15/03/2026;Em crescimento
+1276;Aroeira pimenteira;365;22/08/2026;Pronta para plantio
+1277;Pau-brasil;402;01/01/2026;Transplantada
+1278;Jequitiba rosa;439;08/06/2026;Vendida
+1279;Cedro rosa;476;15/11/2026;Descartada
+1280;Angico vermelho;22;22/04/2026;Em quarentena
+1281;Pitangueira;59;01/09/2023;Germinando
+1282;Jabuticabeira;96;08/02/2023;Em crescimento
+1283;Quaresmeira;133;15/07/2023;Pronta para plantio
+1284;Sibipiruna;170;22/12/2023;Transplantada
+1285;Araucaria;207;01/05/2023;Vendida
+1286;Peroba rosa;244;08/10/2023;Descartada
+1287;Embauba;281;15/03/2023;Em quarentena
+1288;Guapuruvu;318;22/08/2024;Germinando
+1289;Copaiba;355;01/01/2024;Em crescimento
+1290;Ipe amarelo;392;08/06/2024;Pronta para plantio
+1291;Ipe roxo;429;15/11/2024;Transplantada
+1292;Jatoba;466;22/04/2024;Vendida
+1293;Aroeira pimenteira;12;01/09/2024;Descartada
+1294;Pau-brasil;49;08/02/2024;Em quarentena
+1295;Jequitiba rosa;86;15/07/2025;Germinando
+1296;Cedro rosa;123;22/12/2025;Em crescimento
+1297;Angico vermelho;160;01/05/2025;Pronta para plantio
+1298;Pitangueira;197;08/10/2025;Transplantada
+1299;Jabuticabeira;234;15/03/2025;Vendida
+1300;Quaresmeira;271;22/08/2025;Descartada
+1301;Sibipiruna;308;01/01/2025;Em quarentena
+1302;Araucaria;345;08/06/2026;Germinando
+1303;Peroba rosa;382;15/11/2026;Em crescimento
+1304;Embauba;419;22/04/2026;Pronta para plantio
+1305;Guapuruvu;456;01/09/2026;Transplantada
+1306;Copaiba;493;08/02/2026;Vendida
+1307;Ipe amarelo;39;15/07/2026;Descartada
+1308;Ipe roxo;76;22/12/2026;Em quarentena
+1309;Jatoba;113;01/05/2023;Germinando
+1310;Aroeira pimenteira;150;08/10/2023;Em crescimento
+1311;Pau-brasil;187;15/03/2023;Pronta para plantio
+1312;Jequitiba rosa;224;22/08/2023;Transplantada
+1313;Cedro rosa;261;01/01/2023;Vendida
+1314;Angico vermelho;298;08/06/2023;Descartada
+1315;Pitangueira;335;15/11/2023;Em quarentena
+1316;Jabuticabeira;372;22/04/2024;Germinando
+1317;Quaresmeira;409;01/09/2024;Em crescimento
+1318;Sibipiruna;446;08/02/2024;Pronta para plantio
+1319;Araucaria;483;15/07/2024;Transplantada
+1320;Peroba rosa;29;22/12/2024;Vendida
+1321;Embauba;66;01/05/2024;Descartada
+1322;Guapuruvu;103;08/10/2024;Em quarentena
+1323;Copaiba;140;15/03/2025;Germinando
+1324;Ipe amarelo;177;22/08/2025;Em crescimento
+1325;Ipe roxo;214;01/01/2025;Pronta para plantio
+1326;Jatoba;251;08/06/2025;Transplantada
+1327;Aroeira pimenteira;288;15/11/2025;Vendida
+1328;Pau-brasil;325;22/04/2025;Descartada
+1329;Jequitiba rosa;362;01/09/2025;Em quarentena
+1330;Cedro rosa;399;08/02/2026;Germinando
+1331;Angico vermelho;436;15/07/2026;Em crescimento
+1332;Pitangueira;473;22/12/2026;Pronta para plantio
+1333;Jabuticabeira;19;01/05/2026;Transplantada
+1334;Quaresmeira;56;08/10/2026;Vendida
+1335;Sibipiruna;93;15/03/2026;Descartada
+1336;Araucaria;130;22/08/2026;Em quarentena
+1337;Peroba rosa;167;01/01/2023;Germinando
+1338;Embauba;204;08/06/2023;Em crescimento
+1339;Guapuruvu;241;15/11/2023;Pronta para plantio
+1340;Copaiba;278;22/04/2023;Transplantada
+1341;Ipe amarelo;315;01/09/2023;Vendida
+1342;Ipe roxo;352;08/02/2023;Descartada
+1343;Jatoba;389;15/07/2023;Em quarentena
+1344;Aroeira pimenteira;426;22/12/2024;Germinando
+1345;Pau-brasil;463;01/05/2024;Em crescimento
+1346;Jequitiba rosa;500;08/10/2024;Pronta para plantio
+1347;Cedro rosa;46;15/03/2024;Transplantada
+1348;Angico vermelho;83;22/08/2024;Vendida
+1349;Pitangueira;120;01/01/2024;Descartada
+1350;Jabuticabeira;157;08/06/2024;Em quarentena
+1351;Quaresmeira;194;15/11/2025;Germinando
+1352;Sibipiruna;231;22/04/2025;Em crescimento
+1353;Araucaria;268;01/09/2025;Pronta para plantio
+1354;Peroba rosa;305;08/02/2025;Transplantada
+1355;Embauba;342;15/07/2025;Vendida
+1356;Guapuruvu;379;22/12/2025;Descartada
+1357;Copaiba;416;01/05/2025;Em quarentena
+1358;Ipe amarelo;453;08/10/2026;Germinando
+1359;Ipe roxo;490;15/03/2026;Em crescimento
+1360;Jatoba;36;22/08/2026;Pronta para plantio
+1361;Aroeira pimenteira;73;01/01/2026;Transplantada
+1362;Pau-brasil;110;08/06/2026;Vendida
+1363;Jequitiba rosa;147;15/11/2026;Descartada
+1364;Cedro rosa;184;22/04/2026;Em quarentena
+1365;Angico vermelho;221;01/09/2023;Germinando
+1366;Pitangueira;258;08/02/2023;Em crescimento
+1367;Jabuticabeira;295;15/07/2023;Pronta para plantio
+1368;Quaresmeira;332;22/12/2023;Transplantada
+1369;Sibipiruna;369;01/05/2023;Vendida
+1370;Araucaria;406;08/10/2023;Descartada
+1371;Peroba rosa;443;15/03/2023;Em quarentena
+1372;Embauba;480;22/08/2024;Germinando
+1373;Guapuruvu;26;01/01/2024;Em crescimento
+1374;Copaiba;63;08/06/2024;Pronta para plantio
+1375;Ipe amarelo;100;15/11/2024;Transplantada
+1376;Ipe roxo;137;22/04/2024;Vendida
+1377;Jatoba;174;01/09/2024;Descartada
+1378;Aroeira pimenteira;211;08/02/2024;Em quarentena
+1379;Pau-brasil;248;15/07/2025;Germinando
+1380;Jequitiba rosa;285;22/12/2025;Em crescimento
+1381;Cedro rosa;322;01/05/2025;Pronta para plantio
+1382;Angico vermelho;359;08/10/2025;Transplantada
+1383;Pitangueira;396;15/03/2025;Vendida
+1384;Jabuticabeira;433;22/08/2025;Descartada
+1385;Quaresmeira;470;01/01/2025;Em quarentena
+1386;Sibipiruna;16;08/06/2026;Germinando
+1387;Araucaria;53;15/11/2026;Em crescimento
+1388;Peroba rosa;90;22/04/2026;Pronta para plantio
+1389;Embauba;127;01/09/2026;Transplantada
+1390;Guapuruvu;164;08/02/2026;Vendida
+1391;Copaiba;201;15/07/2026;Descartada
+1392;Ipe amarelo;238;22/12/2026;Em quarentena
+1393;Ipe roxo;275;01/05/2023;Germinando
+1394;Jatoba;312;08/10/2023;Em crescimento
+1395;Aroeira pimenteira;349;15/03/2023;Pronta para plantio
+1396;Pau-brasil;386;22/08/2023;Transplantada
+1397;Jequitiba rosa;423;01/01/2023;Vendida
+1398;Cedro rosa;460;08/06/2023;Descartada
+1399;Angico vermelho;497;15/11/2023;Em quarentena
+1400;Pitangueira;43;22/04/2024;Germinando
+1401;Jabuticabeira;80;01/09/2024;Em crescimento
+1402;Quaresmeira;117;08/02/2024;Pronta para plantio
+1403;Sibipiruna;154;15/07/2024;Transplantada
+1404;Araucaria;191;22/12/2024;Vendida
+1405;Peroba rosa;228;01/05/2024;Descartada
+1406;Embauba;265;08/10/2024;Em quarentena
+1407;Guapuruvu;302;15/03/2025;Germinando
+1408;Copaiba;339;22/08/2025;Em crescimento
+1409;Ipe amarelo;376;01/01/2025;Pronta para plantio
+1410;Ipe roxo;413;08/06/2025;Transplantada
+1411;Jatoba;450;15/11/2025;Vendida
+1412;Aroeira pimenteira;487;22/04/2025;Descartada
+1413;Pau-brasil;33;01/09/2025;Em quarentena
+1414;Jequitiba rosa;70;08/02/2026;Germinando
+1415;Cedro rosa;107;15/07/2026;Em crescimento
+1416;Angico vermelho;144;22/12/2026;Pronta para plantio
+1417;Pitangueira;181;01/05/2026;Transplantada
+1418;Jabuticabeira;218;08/10/2026;Vendida
+1419;Quaresmeira;255;15/03/2026;Descartada
+1420;Sibipiruna;292;22/08/2026;Em quarentena
+1421;Araucaria;329;01/01/2023;Germinando
+1422;Peroba rosa;366;08/06/2023;Em crescimento
+1423;Embauba;403;15/11/2023;Pronta para plantio
+1424;Guapuruvu;440;22/04/2023;Transplantada
+1425;Copaiba;477;01/09/2023;Vendida
+1426;Ipe amarelo;23;08/02/2023;Descartada
+1427;Ipe roxo;60;15/07/2023;Em quarentena
+1428;Jatoba;97;22/12/2024;Germinando
+1429;Aroeira pimenteira;134;01/05/2024;Em crescimento
+1430;Pau-brasil;171;08/10/2024;Pronta para plantio
+1431;Jequitiba rosa;208;15/03/2024;Transplantada
+1432;Cedro rosa;245;22/08/2024;Vendida
+1433;Angico vermelho;282;01/01/2024;Descartada
+1434;Pitangueira;319;08/06/2024;Em quarentena
+1435;Jabuticabeira;356;15/11/2025;Germinando
+1436;Quaresmeira;393;22/04/2025;Em crescimento
+1437;Sibipiruna;430;01/09/2025;Pronta para plantio
+1438;Araucaria;467;08/02/2025;Transplantada
+1439;Peroba rosa;13;15/07/2025;Vendida
+1440;Embauba;50;22/12/2025;Descartada
+1441;Guapuruvu;87;01/05/2025;Em quarentena
+1442;Copaiba;124;08/10/2026;Germinando
+1443;Ipe amarelo;161;15/03/2026;Em crescimento
+1444;Ipe roxo;198;22/08/2026;Pronta para plantio
+1445;Jatoba;235;01/01/2026;Transplantada
+1446;Aroeira pimenteira;272;08/06/2026;Vendida
+1447;Pau-brasil;309;15/11/2026;Descartada
+1448;Jequitiba rosa;346;22/04/2026;Em quarentena
+1449;Cedro rosa;383;01/09/2023;Germinando
+1450;Angico vermelho;420;08/02/2023;Em crescimento
+1451;Pitangueira;457;15/07/2023;Pronta para plantio
+1452;Jabuticabeira;494;22/12/2023;Transplantada
+1453;Quaresmeira;40;01/05/2023;Vendida
+1454;Sibipiruna;77;08/10/2023;Descartada
+1455;Araucaria;114;15/03/2023;Em quarentena
+1456;Peroba rosa;151;22/08/2024;Germinando
+1457;Embauba;188;01/01/2024;Em crescimento
+1458;Guapuruvu;225;08/06/2024;Pronta para plantio
+1459;Copaiba;262;15/11/2024;Transplantada
+1460;Ipe amarelo;299;22/04/2024;Vendida
+1461;Ipe roxo;336;01/09/2024;Descartada
+1462;Jatoba;373;08/02/2024;Em quarentena
+1463;Aroeira pimenteira;410;15/07/2025;Germinando
+1464;Pau-brasil;447;22/12/2025;Em crescimento
+1465;Jequitiba rosa;484;01/05/2025;Pronta para plantio
+1466;Cedro rosa;30;08/10/2025;Transplantada
+1467;Angico vermelho;67;15/03/2025;Vendida
+1468;Pitangueira;104;22/08/2025;Descartada
+1469;Jabuticabeira;141;01/01/2025;Em quarentena
+1470;Quaresmeira;178;08/06/2026;Germinando
+1471;Sibipiruna;215;15/11/2026;Em crescimento
+1472;Araucaria;252;22/04/2026;Pronta para plantio
+1473;Peroba rosa;289;01/09/2026;Transplantada
+1474;Embauba;326;08/02/2026;Vendida
+1475;Guapuruvu;363;15/07/2026;Descartada
+1476;Copaiba;400;22/12/2026;Em quarentena
+1477;Ipe amarelo;437;01/05/2023;Germinando
+1478;Ipe roxo;474;08/10/2023;Em crescimento
+1479;Jatoba;20;15/03/2023;Pronta para plantio
+1480;Aroeira pimenteira;57;22/08/2023;Transplantada
+1481;Pau-brasil;94;01/01/2023;Vendida
+1482;Jequitiba rosa;131;08/06/2023;Descartada
+1483;Cedro rosa;168;15/11/2023;Em quarentena
+1484;Angico vermelho;205;22/04/2024;Germinando
+1485;Pitangueira;242;01/09/2024;Em crescimento
+1486;Jabuticabeira;279;08/02/2024;Pronta para plantio
+1487;Quaresmeira;316;15/07/2024;Transplantada
+1488;Sibipiruna;353;22/12/2024;Vendida
+1489;Araucaria;390;01/05/2024;Descartada
+1490;Peroba rosa;427;08/10/2024;Em quarentena
+1491;Embauba;464;15/03/2025;Germinando
+1492;Guapuruvu;10;22/08/2025;Em crescimento
+1493;Copaiba;47;01/01/2025;Pronta para plantio
+1494;Ipe amarelo;84;08/06/2025;Transplantada
+1495;Ipe roxo;121;15/11/2025;Vendida
+1496;Jatoba;158;22/04/2025;Descartada
+1497;Aroeira pimenteira;195;01/09/2025;Em quarentena
+1498;Pau-brasil;232;08/02/2026;Germinando
+1499;Jequitiba rosa;269;15/07/2026;Em crescimento
+1500;Cedro rosa;306;22/12/2026;Pronta para plantio
+1501;Angico vermelho;343;01/05/2026;Transplantada
+1502;Pitangueira;380;08/10/2026;Vendida
+1503;Jabuticabeira;417;15/03/2026;Descartada
+1504;Quaresmeira;454;22/08/2026;Em quarentena
+1505;Sibipiruna;491;01/01/2023;Germinando
+1506;Araucaria;37;08/06/2023;Em crescimento
+1507;Peroba rosa;74;15/11/2023;Pronta para plantio
+1508;Embauba;111;22/04/2023;Transplantada
+1509;Guapuruvu;148;01/09/2023;Vendida
+1510;Copaiba;185;08/02/2023;Descartada
+1511;Ipe amarelo;222;15/07/2023;Em quarentena
+1512;Ipe roxo;259;22/12/2024;Germinando
+1513;Jatoba;296;01/05/2024;Em crescimento
+1514;Aroeira pimenteira;333;08/10/2024;Pronta para plantio
+1515;Pau-brasil;370;15/03/2024;Transplantada
+1516;Jequitiba rosa;407;22/08/2024;Vendida
+1517;Cedro rosa;444;01/01/2024;Descartada
+1518;Angico vermelho;481;08/06/2024;Em quarentena
+1519;Pitangueira;27;15/11/2025;Germinando
+1520;Jabuticabeira;64;22/04/2025;Em crescimento
+1521;Quaresmeira;101;01/09/2025;Pronta para plantio
+1522;Sibipiruna;138;08/02/2025;Transplantada
+1523;Araucaria;175;15/07/2025;Vendida
+1524;Peroba rosa;212;22/12/2025;Descartada
+1525;Embauba;249;01/05/2025;Em quarentena
+1526;Guapuruvu;286;08/10/2026;Germinando
+1527;Copaiba;323;15/03/2026;Em crescimento
+1528;Ipe amarelo;360;22/08/2026;Pronta para plantio
+1529;Ipe roxo;397;01/01/2026;Transplantada
+1530;Jatoba;434;08/06/2026;Vendida
+1531;Aroeira pimenteira;471;15/11/2026;Descartada
+1532;Pau-brasil;17;22/04/2026;Em quarentena
+1533;Jequitiba rosa;54;01/09/2023;Germinando
+1534;Cedro rosa;91;08/02/2023;Em crescimento
+1535;Angico vermelho;128;15/07/2023;Pronta para plantio
+1536;Pitangueira;165;22/12/2023;Transplantada
+1537;Jabuticabeira;202;01/05/2023;Vendida
+1538;Quaresmeira;239;08/10/2023;Descartada
+1539;Sibipiruna;276;15/03/2023;Em quarentena
+1540;Araucaria;313;22/08/2024;Germinando
+1541;Peroba rosa;350;01/01/2024;Em crescimento
+1542;Embauba;387;08/06/2024;Pronta para plantio
+1543;Guapuruvu;424;15/11/2024;Transplantada
+1544;Copaiba;461;22/04/2024;Vendida
+1545;Ipe amarelo;498;01/09/2024;Descartada
+1546;Ipe roxo;44;08/02/2024;Em quarentena
+1547;Jatoba;81;15/07/2025;Germinando
+1548;Aroeira pimenteira;118;22/12/2025;Em crescimento
+1549;Pau-brasil;155;01/05/2025;Pronta para plantio
+1550;Jequitiba rosa;192;08/10/2025;Transplantada
+1551;Cedro rosa;229;15/03/2025;Vendida
+1552;Angico vermelho;266;22/08/2025;Descartada
+1553;Pitangueira;303;01/01/2025;Em quarentena
+1554;Jabuticabeira;340;08/06/2026;Germinando
+1555;Quaresmeira;377;15/11/2026;Em crescimento
+1556;Sibipiruna;414;22/04/2026;Pronta para plantio
+1557;Araucaria;451;01/09/2026;Transplantada
+1558;Peroba rosa;488;08/02/2026;Vendida
+1559;Embauba;34;15/07/2026;Descartada
+1560;Guapuruvu;71;22/12/2026;Em quarentena
+1561;Copaiba;108;01/05/2023;Germinando
+1562;Ipe amarelo;145;08/10/2023;Em crescimento
+1563;Ipe roxo;182;15/03/2023;Pronta para plantio
+1564;Jatoba;219;22/08/2023;Transplantada
+1565;Aroeira pimenteira;256;01/01/2023;Vendida
+1566;Pau-brasil;293;08/06/2023;Descartada
+1567;Jequitiba rosa;330;15/11/2023;Em quarentena
+1568;Cedro rosa;367;22/04/2024;Germinando
+1569;Angico vermelho;404;01/09/2024;Em crescimento
+1570;Pitangueira;441;08/02/2024;Pronta para plantio
+1571;Jabuticabeira;478;15/07/2024;Transplantada
+1572;Quaresmeira;24;22/12/2024;Vendida
+1573;Sibipiruna;61;01/05/2024;Descartada
+1574;Araucaria;98;08/10/2024;Em quarentena
+1575;Peroba rosa;135;15/03/2025;Germinando
+1576;Embauba;172;22/08/2025;Em crescimento
+1577;Guapuruvu;209;01/01/2025;Pronta para plantio
+1578;Copaiba;246;08/06/2025;Transplantada
+1579;Ipe amarelo;283;15/11/2025;Vendida
+1580;Ipe roxo;320;22/04/2025;Descartada
+1581;Jatoba;357;01/09/2025;Em quarentena
+1582;Aroeira pimenteira;394;08/02/2026;Germinando
+1583;Pau-brasil;431;15/07/2026;Em crescimento
+1584;Jequitiba rosa;468;22/12/2026;Pronta para plantio
+1585;Cedro rosa;14;01/05/2026;Transplantada
+1586;Angico vermelho;51;08/10/2026;Vendida
+1587;Pitangueira;88;15/03/2026;Descartada
+1588;Jabuticabeira;125;22/08/2026;Em quarentena
+1589;Quaresmeira;162;01/01/2023;Germinando
+1590;Sibipiruna;199;08/06/2023;Em crescimento
+1591;Araucaria;236;15/11/2023;Pronta para plantio
+1592;Peroba rosa;273;22/04/2023;Transplantada
+1593;Embauba;310;01/09/2023;Vendida
+1594;Guapuruvu;347;08/02/2023;Descartada
+1595;Copaiba;384;15/07/2023;Em quarentena
+1596;Ipe amarelo;421;22/12/2024;Germinando
+1597;Ipe roxo;458;01/05/2024;Em crescimento
+1598;Jatoba;495;08/10/2024;Pronta para plantio
+1599;Aroeira pimenteira;41;15/03/2024;Transplantada
+1600;Pau-brasil;78;22/08/2024;Vendida
+1601;Jequitiba rosa;115;01/01/2024;Descartada
+1602;Cedro rosa;152;08/06/2024;Em quarentena
+1603;Angico vermelho;189;15/11/2025;Germinando
+1604;Pitangueira;226;22/04/2025;Em crescimento
+1605;Jabuticabeira;263;01/09/2025;Pronta para plantio
+1606;Quaresmeira;300;08/02/2025;Transplantada
+1607;Sibipiruna;337;15/07/2025;Vendida
+1608;Araucaria;374;22/12/2025;Descartada
+1609;Peroba rosa;411;01/05/2025;Em quarentena
+1610;Embauba;448;08/10/2026;Germinando
+1611;Guapuruvu;485;15/03/2026;Em crescimento
+1612;Copaiba;31;22/08/2026;Pronta para plantio
+1613;Ipe amarelo;68;01/01/2026;Transplantada
+1614;Ipe roxo;105;08/06/2026;Vendida
+1615;Jatoba;142;15/11/2026;Descartada
+1616;Aroeira pimenteira;179;22/04/2026;Em quarentena
+1617;Pau-brasil;216;01/09/2023;Germinando
+1618;Jequitiba rosa;253;08/02/2023;Em crescimento
+1619;Cedro rosa;290;15/07/2023;Pronta para plantio
+1620;Angico vermelho;327;22/12/2023;Transplantada
+1621;Pitangueira;364;01/05/2023;Vendida
+1622;Jabuticabeira;401;08/10/2023;Descartada
+1623;Quaresmeira;438;15/03/2023;Em quarentena
+1624;Sibipiruna;475;22/08/2024;Germinando
+1625;Araucaria;21;01/01/2024;Em crescimento
+1626;Peroba rosa;58;08/06/2024;Pronta para plantio
+1627;Embauba;95;15/11/2024;Transplantada
+1628;Guapuruvu;132;22/04/2024;Vendida
+1629;Copaiba;169;01/09/2024;Descartada
+1630;Ipe amarelo;206;08/02/2024;Em quarentena
+1631;Ipe roxo;243;15/07/2025;Germinando
+1632;Jatoba;280;22/12/2025;Em crescimento
+1633;Aroeira pimenteira;317;01/05/2025;Pronta para plantio
+1634;Pau-brasil;354;08/10/2025;Transplantada
+1635;Jequitiba rosa;391;15/03/2025;Vendida
+1636;Cedro rosa;428;22/08/2025;Descartada
+1637;Angico vermelho;465;01/01/2025;Em quarentena
+1638;Pitangueira;11;08/06/2026;Germinando
+1639;Jabuticabeira;48;15/11/2026;Em crescimento
+1640;Quaresmeira;85;22/04/2026;Pronta para plantio
+1641;Sibipiruna;122;01/09/2026;Transplantada
+1642;Araucaria;159;08/02/2026;Vendida
+1643;Peroba rosa;196;15/07/2026;Descartada
+1644;Embauba;233;22/12/2026;Em quarentena
+1645;Guapuruvu;270;01/05/2023;Germinando
+1646;Copaiba;307;08/10/2023;Em crescimento
+1647;Ipe amarelo;344;15/03/2023;Pronta para plantio
+1648;Ipe roxo;381;22/08/2023;Transplantada
+1649;Jatoba;418;01/01/2023;Vendida
+1650;Aroeira pimenteira;455;08/06/2023;Descartada
+1651;Pau-brasil;492;15/11/2023;Em quarentena
+1652;Jequitiba rosa;38;22/04/2024;Germinando
+1653;Cedro rosa;75;01/09/2024;Em crescimento
+1654;Angico vermelho;112;08/02/2024;Pronta para plantio
+1655;Pitangueira;149;15/07/2024;Transplantada
+1656;Jabuticabeira;186;22/12/2024;Vendida
+1657;Quaresmeira;223;01/05/2024;Descartada
+1658;Sibipiruna;260;08/10/2024;Em quarentena
+1659;Araucaria;297;15/03/2025;Germinando
+1660;Peroba rosa;334;22/08/2025;Em crescimento
+1661;Embauba;371;01/01/2025;Pronta para plantio
+1662;Guapuruvu;408;08/06/2025;Transplantada
+1663;Copaiba;445;15/11/2025;Vendida
+1664;Ipe amarelo;482;22/04/2025;Descartada
+1665;Ipe roxo;28;01/09/2025;Em quarentena
+1666;Jatoba;65;08/02/2026;Germinando
+1667;Aroeira pimenteira;102;15/07/2026;Em crescimento
+1668;Pau-brasil;139;22/12/2026;Pronta para plantio
+1669;Jequitiba rosa;176;01/05/2026;Transplantada
+1670;Cedro rosa;213;08/10/2026;Vendida
+1671;Angico vermelho;250;15/03/2026;Descartada
+1672;Pitangueira;287;22/08/2026;Em quarentena
+1673;Jabuticabeira;324;01/01/2023;Germinando
+1674;Quaresmeira;361;08/06/2023;Em crescimento
+1675;Sibipiruna;398;15/11/2023;Pronta para plantio
+1676;Araucaria;435;22/04/2023;Transplantada
+1677;Peroba rosa;472;01/09/2023;Vendida
+1678;Embauba;18;08/02/2023;Descartada
+1679;Guapuruvu;55;15/07/2023;Em quarentena
+1680;Copaiba;92;22/12/2024;Germinando
+1681;Ipe amarelo;129;01/05/2024;Em crescimento
+1682;Ipe roxo;166;08/10/2024;Pronta para plantio
+1683;Jatoba;203;15/03/2024;Transplantada
+1684;Aroeira pimenteira;240;22/08/2024;Vendida
+1685;Pau-brasil;277;01/01/2024;Descartada
+1686;Jequitiba rosa;314;08/06/2024;Em quarentena
+1687;Cedro rosa;351;15/11/2025;Germinando
+1688;Angico vermelho;388;22/04/2025;Em crescimento
+1689;Pitangueira;425;01/09/2025;Pronta para plantio
+1690;Jabuticabeira;462;08/02/2025;Transplantada
+1691;Quaresmeira;499;15/07/2025;Vendida
+1692;Sibipiruna;45;22/12/2025;Descartada
+1693;Araucaria;82;01/05/2025;Em quarentena
+1694;Peroba rosa;119;08/10/2026;Germinando
+1695;Embauba;156;15/03/2026;Em crescimento
+1696;Guapuruvu;193;22/08/2026;Pronta para plantio
+1697;Copaiba;230;01/01/2026;Transplantada
+1698;Ipe amarelo;267;08/06/2026;Vendida
+1699;Ipe roxo;304;15/11/2026;Descartada
+1700;Jatoba;341;22/04/2026;Em quarentena
+1701;Aroeira pimenteira;378;01/09/2023;Germinando
+1702;Pau-brasil;415;08/02/2023;Em crescimento
+1703;Jequitiba rosa;452;15/07/2023;Pronta para plantio
+1704;Cedro rosa;489;22/12/2023;Transplantada
+1705;Angico vermelho;35;01/05/2023;Vendida
+1706;Pitangueira;72;08/10/2023;Descartada
+1707;Jabuticabeira;109;15/03/2023;Em quarentena
+1708;Quaresmeira;146;22/08/2024;Germinando
+1709;Sibipiruna;183;01/01/2024;Em crescimento
+1710;Araucaria;220;08/06/2024;Pronta para plantio
+1711;Peroba rosa;257;15/11/2024;Transplantada
+1712;Embauba;294;22/04/2024;Vendida
+1713;Guapuruvu;331;01/09/2024;Descartada
+1714;Copaiba;368;08/02/2024;Em quarentena
+1715;Ipe amarelo;405;15/07/2025;Germinando
+1716;Ipe roxo;442;22/12/2025;Em crescimento
+1717;Jatoba;479;01/05/2025;Pronta para plantio
+1718;Aroeira pimenteira;25;08/10/2025;Transplantada
+1719;Pau-brasil;62;15/03/2025;Vendida
+1720;Jequitiba rosa;99;22/08/2025;Descartada
+1721;Cedro rosa;136;01/01/2025;Em quarentena
+1722;Angico vermelho;173;08/06/2026;Germinando
+1723;Pitangueira;210;15/11/2026;Em crescimento
+1724;Jabuticabeira;247;22/04/2026;Pronta para plantio
+1725;Quaresmeira;284;01/09/2026;Transplantada
+1726;Sibipiruna;321;08/02/2026;Vendida
+1727;Araucaria;358;15/07/2026;Descartada
+1728;Peroba rosa;395;22/12/2026;Em quarentena
+1729;Embauba;432;01/05/2023;Germinando
+1730;Guapuruvu;469;08/10/2023;Em crescimento
+1731;Copaiba;15;15/03/2023;Pronta para plantio
+1732;Ipe amarelo;52;22/08/2023;Transplantada
+1733;Ipe roxo;89;01/01/2023;Vendida
+1734;Jatoba;126;08/06/2023;Descartada
+1735;Aroeira pimenteira;163;15/11/2023;Em quarentena
+1736;Pau-brasil;200;22/04/2024;Germinando
+1737;Jequitiba rosa;237;01/09/2024;Em crescimento
+1738;Cedro rosa;274;08/02/2024;Pronta para plantio
+1739;Angico vermelho;311;15/07/2024;Transplantada
+1740;Pitangueira;348;22/12/2024;Vendida
+1741;Jabuticabeira;385;01/05/2024;Descartada
+1742;Quaresmeira;422;08/10/2024;Em quarentena
+1743;Sibipiruna;459;15/03/2025;Germinando
+1744;Araucaria;496;22/08/2025;Em crescimento
+1745;Peroba rosa;42;01/01/2025;Pronta para plantio
+1746;Embauba;79;08/06/2025;Transplantada
+1747;Guapuruvu;116;15/11/2025;Vendida
+1748;Copaiba;153;22/04/2025;Descartada
+1749;Ipe amarelo;190;01/09/2025;Em quarentena
+1750;Ipe roxo;227;08/02/2026;Germinando
+1751;Jatoba;264;15/07/2026;Em crescimento
+1752;Aroeira pimenteira;301;22/12/2026;Pronta para plantio
+1753;Pau-brasil;338;01/05/2026;Transplantada
+1754;Jequitiba rosa;375;08/10/2026;Vendida
+1755;Cedro rosa;412;15/03/2026;Descartada
+1756;Angico vermelho;449;22/08/2026;Em quarentena
+1757;Pitangueira;486;01/01/2023;Germinando
+1758;Jabuticabeira;32;08/06/2023;Em crescimento
+1759;Quaresmeira;69;15/11/2023;Pronta para plantio
+1760;Sibipiruna;106;22/04/2023;Transplantada
+1761;Araucaria;143;01/09/2023;Vendida
+1762;Peroba rosa;180;08/02/2023;Descartada
+1763;Embauba;217;15/07/2023;Em quarentena
+1764;Guapuruvu;254;22/12/2024;Germinando
+1765;Copaiba;291;01/05/2024;Em crescimento
+1766;Ipe amarelo;328;08/10/2024;Pronta para plantio
+1767;Ipe roxo;365;15/03/2024;Transplantada
+1768;Jatoba;402;22/08/2024;Vendida
+1769;Aroeira pimenteira;439;01/01/2024;Descartada
+1770;Pau-brasil;476;08/06/2024;Em quarentena
+1771;Jequitiba rosa;22;15/11/2025;Germinando
+1772;Cedro rosa;59;22/04/2025;Em crescimento
+1773;Angico vermelho;96;01/09/2025;Pronta para plantio
+1774;Pitangueira;133;08/02/2025;Transplantada
+1775;Jabuticabeira;170;15/07/2025;Vendida
+1776;Quaresmeira;207;22/12/2025;Descartada
+1777;Sibipiruna;244;01/05/2025;Em quarentena
+1778;Araucaria;281;08/10/2026;Germinando
+1779;Peroba rosa;318;15/03/2026;Em crescimento
+1780;Embauba;355;22/08/2026;Pronta para plantio
+1781;Guapuruvu;392;01/01/2026;Transplantada
+1782;Copaiba;429;08/06/2026;Vendida
+1783;Ipe amarelo;466;15/11/2026;Descartada
+1784;Ipe roxo;12;22/04/2026;Em quarentena
+1785;Jatoba;49;01/09/2023;Germinando
+1786;Aroeira pimenteira;86;08/02/2023;Em crescimento
+1787;Pau-brasil;123;15/07/2023;Pronta para plantio
+1788;Jequitiba rosa;160;22/12/2023;Transplantada
+1789;Cedro rosa;197;01/05/2023;Vendida
+1790;Angico vermelho;234;08/10/2023;Descartada
+1791;Pitangueira;271;15/03/2023;Em quarentena
+1792;Jabuticabeira;308;22/08/2024;Germinando
+1793;Quaresmeira;345;01/01/2024;Em crescimento
+1794;Sibipiruna;382;08/06/2024;Pronta para plantio
+1795;Araucaria;419;15/11/2024;Transplantada
+1796;Peroba rosa;456;22/04/2024;Vendida
+1797;Embauba;493;01/09/2024;Descartada
+1798;Guapuruvu;39;08/02/2024;Em quarentena
+1799;Copaiba;76;15/07/2025;Germinando
+1800;Ipe amarelo;113;22/12/2025;Em crescimento
+1801;Ipe roxo;150;01/05/2025;Pronta para plantio
+1802;Jatoba;187;08/10/2025;Transplantada
+1803;Aroeira pimenteira;224;15/03/2025;Vendida
+1804;Pau-brasil;261;22/08/2025;Descartada
+1805;Jequitiba rosa;298;01/01/2025;Em quarentena
+1806;Cedro rosa;335;08/06/2026;Germinando
+1807;Angico vermelho;372;15/11/2026;Em crescimento
+1808;Pitangueira;409;22/04/2026;Pronta para plantio
+1809;Jabuticabeira;446;01/09/2026;Transplantada
+1810;Quaresmeira;483;08/02/2026;Vendida
+1811;Sibipiruna;29;15/07/2026;Descartada
+1812;Araucaria;66;22/12/2026;Em quarentena
+1813;Peroba rosa;103;01/05/2023;Germinando
+1814;Embauba;140;08/10/2023;Em crescimento
+1815;Guapuruvu;177;15/03/2023;Pronta para plantio
+1816;Copaiba;214;22/08/2023;Transplantada
+1817;Ipe amarelo;251;01/01/2023;Vendida
+1818;Ipe roxo;288;08/06/2023;Descartada
+1819;Jatoba;325;15/11/2023;Em quarentena
+1820;Aroeira pimenteira;362;22/04/2024;Germinando
+1821;Pau-brasil;399;01/09/2024;Em crescimento
+1822;Jequitiba rosa;436;08/02/2024;Pronta para plantio
+1823;Cedro rosa;473;15/07/2024;Transplantada
+1824;Angico vermelho;19;22/12/2024;Vendida
+1825;Pitangueira;56;01/05/2024;Descartada
+1826;Jabuticabeira;93;08/10/2024;Em quarentena
+1827;Quaresmeira;130;15/03/2025;Germinando
+1828;Sibipiruna;167;22/08/2025;Em crescimento
+1829;Araucaria;204;01/01/2025;Pronta para plantio
+1830;Peroba rosa;241;08/06/2025;Transplantada
+1831;Embauba;278;15/11/2025;Vendida
+1832;Guapuruvu;315;22/04/2025;Descartada
+1833;Copaiba;352;01/09/2025;Em quarentena
+1834;Ipe amarelo;389;08/02/2026;Germinando
+1835;Ipe roxo;426;15/07/2026;Em crescimento
+1836;Jatoba;463;22/12/2026;Pronta para plantio
+1837;Aroeira pimenteira;500;01/05/2026;Transplantada
+1838;Pau-brasil;46;08/10/2026;Vendida
+1839;Jequitiba rosa;83;15/03/2026;Descartada
+1840;Cedro rosa;120;22/08/2026;Em quarentena
+1841;Angico vermelho;157;01/01/2023;Germinando
+1842;Pitangueira;194;08/06/2023;Em crescimento
+1843;Jabuticabeira;231;15/11/2023;Pronta para plantio
+1844;Quaresmeira;268;22/04/2023;Transplantada
+1845;Sibipiruna;305;01/09/2023;Vendida
+1846;Araucaria;342;08/02/2023;Descartada
+1847;Peroba rosa;379;15/07/2023;Em quarentena
+1848;Embauba;416;22/12/2024;Germinando
+1849;Guapuruvu;453;01/05/2024;Em crescimento
+1850;Copaiba;490;08/10/2024;Pronta para plantio
+1851;Ipe amarelo;36;15/03/2024;Transplantada
+1852;Ipe roxo;73;22/08/2024;Vendida
+1853;Jatoba;110;01/01/2024;Descartada
+1854;Aroeira pimenteira;147;08/06/2024;Em quarentena
+1855;Pau-brasil;184;15/11/2025;Germinando
+1856;Jequitiba rosa;221;22/04/2025;Em crescimento
+1857;Cedro rosa;258;01/09/2025;Pronta para plantio
+1858;Angico vermelho;295;08/02/2025;Transplantada
+1859;Pitangueira;332;15/07/2025;Vendida
+1860;Jabuticabeira;369;22/12/2025;Descartada
+1861;Quaresmeira;406;01/05/2025;Em quarentena
+1862;Sibipiruna;443;08/10/2026;Germinando
+1863;Araucaria;480;15/03/2026;Em crescimento
+1864;Peroba rosa;26;22/08/2026;Pronta para plantio
+1865;Embauba;63;01/01/2026;Transplantada
+1866;Guapuruvu;100;08/06/2026;Vendida
+1867;Copaiba;137;15/11/2026;Descartada
+1868;Ipe amarelo;174;22/04/2026;Em quarentena
+1869;Ipe roxo;211;01/09/2023;Germinando
+1870;Jatoba;248;08/02/2023;Em crescimento
+1871;Aroeira pimenteira;285;15/07/2023;Pronta para plantio
+1872;Pau-brasil;322;22/12/2023;Transplantada
+1873;Jequitiba rosa;359;01/05/2023;Vendida
+1874;Cedro rosa;396;08/10/2023;Descartada
+1875;Angico vermelho;433;15/03/2023;Em quarentena
+1876;Pitangueira;470;22/08/2024;Germinando
+1877;Jabuticabeira;16;01/01/2024;Em crescimento
+1878;Quaresmeira;53;08/06/2024;Pronta para plantio
+1879;Sibipiruna;90;15/11/2024;Transplantada
+1880;Araucaria;127;22/04/2024;Vendida
+1881;Peroba rosa;164;01/09/2024;Descartada
+1882;Embauba;201;08/02/2024;Em quarentena
+1883;Guapuruvu;238;15/07/2025;Germinando
+1884;Copaiba;275;22/12/2025;Em crescimento
+1885;Ipe amarelo;312;01/05/2025;Pronta para plantio
+1886;Ipe roxo;349;08/10/2025;Transplantada
+1887;Jatoba;386;15/03/2025;Vendida
+1888;Aroeira pimenteira;423;22/08/2025;Descartada
+1889;Pau-brasil;460;01/01/2025;Em quarentena
+1890;Jequitiba rosa;497;08/06/2026;Germinando
+1891;Cedro rosa;43;15/11/2026;Em crescimento
+1892;Angico vermelho;80;22/04/2026;Pronta para plantio
+1893;Pitangueira;117;01/09/2026;Transplantada
+1894;Jabuticabeira;154;08/02/2026;Vendida
+1895;Quaresmeira;191;15/07/2026;Descartada
+1896;Sibipiruna;228;22/12/2026;Em quarentena
+1897;Araucaria;265;01/05/2023;Germinando
+1898;Peroba rosa;302;08/10/2023;Em crescimento
+1899;Embauba;339;15/03/2023;Pronta para plantio
+1900;Guapuruvu;376;22/08/2023;Transplantada
+1901;Copaiba;413;01/01/2023;Vendida
+1902;Ipe amarelo;450;08/06/2023;Descartada
+1903;Ipe roxo;487;15/11/2023;Em quarentena
+1904;Jatoba;33;22/04/2024;Germinando
+1905;Aroeira pimenteira;70;01/09/2024;Em crescimento
+1906;Pau-brasil;107;08/02/2024;Pronta para plantio
+1907;Jequitiba rosa;144;15/07/2024;Transplantada
+1908;Cedro rosa;181;22/12/2024;Vendida
+1909;Angico vermelho;218;01/05/2024;Descartada
+1910;Pitangueira;255;08/10/2024;Em quarentena
+1911;Jabuticabeira;292;15/03/2025;Germinando
+1912;Quaresmeira;329;22/08/2025;Em crescimento
+1913;Sibipiruna;366;01/01/2025;Pronta para plantio
+1914;Araucaria;403;08/06/2025;Transplantada
+1915;Peroba rosa;440;15/11/2025;Vendida
+1916;Embauba;477;22/04/2025;Descartada
+1917;Guapuruvu;23;01/09/2025;Em quarentena
+1918;Copaiba;60;08/02/2026;Germinando
+1919;Ipe amarelo;97;15/07/2026;Em crescimento
+1920;Ipe roxo;134;22/12/2026;Pronta para plantio
+1921;Jatoba;171;01/05/2026;Transplantada
+1922;Aroeira pimenteira;208;08/10/2026;Vendida
+1923;Pau-brasil;245;15/03/2026;Descartada
+1924;Jequitiba rosa;282;22/08/2026;Em quarentena
+1925;Cedro rosa;319;01/01/2023;Germinando
+1926;Angico vermelho;356;08/06/2023;Em crescimento
+1927;Pitangueira;393;15/11/2023;Pronta para plantio
+1928;Jabuticabeira;430;22/04/2023;Transplantada
+1929;Quaresmeira;467;01/09/2023;Vendida
+1930;Sibipiruna;13;08/02/2023;Descartada
+1931;Araucaria;50;15/07/2023;Em quarentena
+1932;Peroba rosa;87;22/12/2024;Germinando
+1933;Embauba;124;01/05/2024;Em crescimento
+1934;Guapuruvu;161;08/10/2024;Pronta para plantio
+1935;Copaiba;198;15/03/2024;Transplantada
+1936;Ipe amarelo;235;22/08/2024;Vendida
+1937;Ipe roxo;272;01/01/2024;Descartada
+1938;Jatoba;309;08/06/2024;Em quarentena
+1939;Aroeira pimenteira;346;15/11/2025;Germinando
+1940;Pau-brasil;383;22/04/2025;Em crescimento
+1941;Jequitiba rosa;420;01/09/2025;Pronta para plantio
+1942;Cedro rosa;457;08/02/2025;Transplantada
+1943;Angico vermelho;494;15/07/2025;Vendida
+1944;Pitangueira;40;22/12/2025;Descartada
+1945;Jabuticabeira;77;01/05/2025;Em quarentena
+1946;Quaresmeira;114;08/10/2026;Germinando
+1947;Sibipiruna;151;15/03/2026;Em crescimento
+1948;Araucaria;188;22/08/2026;Pronta para plantio
+1949;Peroba rosa;225;01/01/2026;Transplantada
+1950;Embauba;262;08/06/2026;Vendida
+1951;Guapuruvu;299;15/11/2026;Descartada
+1952;Copaiba;336;22/04/2026;Em quarentena
+1953;Ipe amarelo;373;01/09/2023;Germinando
+1954;Ipe roxo;410;08/02/2023;Em crescimento
+1955;Jatoba;447;15/07/2023;Pronta para plantio
+1956;Aroeira pimenteira;484;22/12/2023;Transplantada
+1957;Pau-brasil;30;01/05/2023;Vendida
+1958;Jequitiba rosa;67;08/10/2023;Descartada
+1959;Cedro rosa;104;15/03/2023;Em quarentena
+1960;Angico vermelho;141;22/08/2024;Germinando
+1961;Pitangueira;178;01/01/2024;Em crescimento
+1962;Jabuticabeira;215;08/06/2024;Pronta para plantio
+1963;Quaresmeira;252;15/11/2024;Transplantada
+1964;Sibipiruna;289;22/04/2024;Vendida
+1965;Araucaria;326;01/09/2024;Descartada
+1966;Peroba rosa;363;08/02/2024;Em quarentena
+1967;Embauba;400;15/07/2025;Germinando
+1968;Guapuruvu;437;22/12/2025;Em crescimento
+1969;Copaiba;474;01/05/2025;Pronta para plantio
+1970;Ipe amarelo;20;08/10/2025;Transplantada
+1971;Ipe roxo;57;15/03/2025;Vendida
+1972;Jatoba;94;22/08/2025;Descartada
+1973;Aroeira pimenteira;131;01/01/2025;Em quarentena
+1974;Pau-brasil;168;08/06/2026;Germinando
+1975;Jequitiba rosa;205;15/11/2026;Em crescimento
+1976;Cedro rosa;242;22/04/2026;Pronta para plantio
+1977;Angico vermelho;279;01/09/2026;Transplantada
+1978;Pitangueira;316;08/02/2026;Vendida
+1979;Jabuticabeira;353;15/07/2026;Descartada
+1980;Quaresmeira;390;22/12/2026;Em quarentena
+1981;Sibipiruna;427;01/05/2023;Germinando
+1982;Araucaria;464;08/10/2023;Em crescimento
+1983;Peroba rosa;10;15/03/2023;Pronta para plantio
+1984;Embauba;47;22/08/2023;Transplantada
+1985;Guapuruvu;84;01/01/2023;Vendida
+1986;Copaiba;121;08/06/2023;Descartada
+1987;Ipe amarelo;158;15/11/2023;Em quarentena
+1988;Ipe roxo;195;22/04/2024;Germinando
+1989;Jatoba;232;01/09/2024;Em crescimento
+1990;Aroeira pimenteira;269;08/02/2024;Pronta para plantio
+1991;Pau-brasil;306;15/07/2024;Transplantada
+1992;Jequitiba rosa;343;22/12/2024;Vendida
+1993;Cedro rosa;380;01/05/2024;Descartada
+1994;Angico vermelho;417;08/10/2024;Em quarentena
+1995;Pitangueira;454;15/03/2025;Germinando
+1996;Jabuticabeira;491;22/08/2025;Em crescimento
+1997;Quaresmeira;37;01/01/2025;Pronta para plantio
+1998;Sibipiruna;74;08/06/2025;Transplantada
+1999;Araucaria;111;15/11/2025;Vendida
+2000;Peroba rosa;148;22/04/2025;Descartada

@@ -104,3 +104,7 @@ void liberarArvore(No *raiz) {
     free(raiz);
 }
 
+
+
+
+
