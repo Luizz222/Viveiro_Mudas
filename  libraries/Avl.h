@@ -122,4 +122,14 @@ No* remover(No *raiz, int chave);
  ===================================================================*/
 int ehAVL(No *raiz);
 
+
+/* =================================================================
+  Função para buscar um no
+  Parâmetros:
+  1 - no - ponteiro que representa a raiz da arvore
+  2 - chave - é a chave do no desejado
+  3 - comparacoes - contar a quantidade de comparações
+ ===================================================================*/
+No *buscar(No *no,int chave , int *comparacoes);
+
 #endif //AVL_H

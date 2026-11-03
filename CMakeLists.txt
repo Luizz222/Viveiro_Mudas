@@ -8,4 +8,6 @@ add_executable(Viveiro_Mudas resource/main.c
         " libraries/Bst.h"
         resource/Bst.c
         " libraries/Avl.h"
-        resource/Avl.c)
+        resource/Avl.c
+        " libraries/Arquivo.h"
+        resource/Arquivo.c)

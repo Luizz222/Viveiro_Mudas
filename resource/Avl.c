@@ -353,3 +353,31 @@ void listarFaixa(No *raiz, int a, int b) {
         return ehAVL(raiz->esq) && ehAVL(raiz->dir);
 
     }
+
+/* =================================================================
+  Função para buscar um no
+  Parâmetros:
+  1 - no - ponteiro que representa a raiz da arvore
+  2 - chave - é a chave do no desejado
+  3 - comparacoes - contar a quantidade de comparações
+ ===================================================================*/
+No *buscar(No *no,int chave , int *comparacoes) {
+    if (no == NULL) {
+        return NULL;
+    }
+    if (chave==no->muda.numero_lote) {
+        (*comparacoes)++;
+        return no;
+    }
+    if (chave<no->muda.numero_lote) {
+        (*comparacoes)++;
+        return buscar(no->esq,chave,comparacoes);
+    }
+    if (chave > no->muda.numero_lote) {
+        (*comparacoes)++;
+        return buscar(no->dir,chave,comparacoes);
+    }
+    if (chave!=no->muda.numero_lote) {
+        return NULL;
+    }
+}
