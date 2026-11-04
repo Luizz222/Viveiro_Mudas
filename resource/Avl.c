@@ -381,3 +381,13 @@ No *buscar(No *no,int chave , int *comparacoes) {
         return NULL;
     }
 }
+
+/* =================================================================
+  Função para contar a quantidade de nos
+  Parâmetros:
+  1 - no - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+int contarNos(No *no) {
+    if (no == NULL) return 0;
+    return 1 + contarNos(no->esq) + contarNos(no->dir);
+}

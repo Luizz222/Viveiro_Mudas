@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include"../ libraries/Structs.h"
 #include"../ libraries/Bst.h"
+#include"../ libraries/Avl.h"
 
 /* =================================================================
   Função para recalcular a altura de um nó: NULL = 0, folha = 1
@@ -102,6 +103,41 @@ void liberarArvore(No *raiz) {
     liberarArvore(raiz->esq);
     liberarArvore(raiz->dir);
     free(raiz);
+}
+
+/* =================================================================
+  Função para remover um no na bst
+  Parâmetros:
+  1 - raiz - ponteiro indicando a raiz da árvore
+  2 - chave - é o numero do lote de cada no
+ ===================================================================*/
+No *removerBst(No *raiz, int chave) {
+    if (raiz == NULL) {
+        return NULL;
+    }
+
+    if (chave < raiz->muda.numero_lote) {
+        raiz->esq = removerBst(raiz->esq, chave);
+    }
+    else if (chave > raiz->muda.numero_lote) {
+        raiz->dir = removerBst(raiz->dir, chave);
+    }
+    else {
+        if (raiz->esq == NULL) {            // sem filho ou só filho direito
+            No *temp = raiz->dir;
+            free(raiz);
+            return temp;
+        }
+        if (raiz->dir == NULL) {            // só filho esquerdo
+            No *temp = raiz->esq;
+            free(raiz);
+            return temp;
+        }
+        No *sucessor = menorNo(raiz->dir);  // dois filhos
+        raiz->muda = sucessor->muda;
+        raiz->dir = removerBst(raiz->dir, sucessor->muda.numero_lote);
+    }
+    return raiz;
 }
 
 

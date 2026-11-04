@@ -45,6 +45,12 @@ void emOrdem(No *raiz);
  ===================================================================*/
 void liberarArvore(No *raiz);
 
-
+/* =================================================================
+  Função para remover um no na bst
+  Parâmetros:
+  1 - raiz - ponteiro indicando a raiz da árvore
+  2 - chave - é o numero do lote de cada no
+ ===================================================================*/
+No *removerBst(No *raiz, int chave);
 
 #endif //BST_H

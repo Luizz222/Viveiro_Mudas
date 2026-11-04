@@ -132,4 +132,11 @@ int ehAVL(No *raiz);
  ===================================================================*/
 No *buscar(No *no,int chave , int *comparacoes);
 
+
+/* =================================================================
+  Função para contar a quantidade de nos
+  Parâmetros:
+  1 - no - ponteiro que representa a raiz da arvore
+ ===================================================================*/
+int contarNos(No *no);
 #endif //AVL_H

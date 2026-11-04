@@ -1,5 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
+#include <direct.h>
 #include "../ libraries/Arquivo.h"
 
 #include "../ libraries/Avl.h"
@@ -20,7 +21,10 @@ void lerArquivo(char arquivo[100],No **raizBst,No **raizAvl) {
     int lidos,reg=0;
     FILE *arq = fopen(arquivo,"r");
     if (arq == NULL) {
-        printf("O arquivo não existe\n");
+        char pasta[260];
+        perror("Erro ao abrir dados.txt");
+        printf("Pasta atual: %s\n", _getcwd(pasta, sizeof(pasta)));
+        printf("O arquivo nao existe\n");
         exit(1);
     }
 
